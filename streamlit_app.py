@@ -33,7 +33,7 @@ st.markdown("""
         font-family: 'Gowun Batang', serif;
     }
     </style>
-    """, unsafe_allow_html=True)
+    """)
 
 # Custom title with new style
 st.markdown('<h1 class="title">😁 DSAIC-Deploying-AI-model 🐧</h1>', unsafe_allow_html=True)
