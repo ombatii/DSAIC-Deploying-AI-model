@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('chicken:DSAIC-Deploying-AI-model')
 
 st.write('Hello world!')
