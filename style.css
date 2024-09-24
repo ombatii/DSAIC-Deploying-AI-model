@@ -1,0 +1,14 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+body {
+    font-family: 'Gowun Batang', serif;
+    background-color: navy; 
+    color: white;
+}
+
+h1 {
+    font-size: 3rem; 
+    color: pink;
+    text-align: center;
+}
