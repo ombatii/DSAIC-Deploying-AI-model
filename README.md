@@ -11,4 +11,8 @@ This app is to showcase how to deploy your machine learning models fast with Str
 Here is a link on where you can download the used data:
 https://raw.githubusercontent.com/ombatii/DSAIC-Deploying-AI-model/refs/heads/master/penguins_data.csv
 
+## Font
+link to download the font:
+https://fonts.google.com/selection/embed
+
 
