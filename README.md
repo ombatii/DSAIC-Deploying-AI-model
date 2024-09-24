@@ -1,13 +1,11 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+#  DSAIC-Deploying-AI-model
 
-Description of the app ...
+
+This app is to showcase how to deploy your machine learning models fast with Streamlit
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://DSAIC-Deploying-AI-model.streamlit.app/)
 
 ## GitHub Codespaces
 
