@@ -22,7 +22,21 @@ with st.expander('Data'):
   y_raw
 
 with st.expander('Data visualization'):
-  st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
+    # Scatter chart: Bill length vs Body mass, colored by species
+    st.subheader("Scatter Plot: Bill Length vs Body Mass")
+    st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
+
+    # Bar chart: Mean body mass by species
+    st.subheader("Bar Chart: Mean Body Mass by Species")
+    mean_body_mass = df.groupby('species')['body_mass_g'].mean().reset_index()
+    st.bar_chart(data=mean_body_mass, x='species', y='body_mass_g')
+
+    # Histogram: Distribution of flipper lengths
+    st.subheader("Histogram: Distribution of Flipper Length")
+    fig, ax = plt.subplots()
+    sns.histplot(df['flipper_length_mm'], kde=True, ax=ax)
+    ax.set_title('Distribution of Flipper Length')
+    st.pyplot(fig)
 
 # Input features
 with st.sidebar:
