@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import seaborn as sns
 from sklearn.ensemble import RandomForestClassifier
 
 st.title('😁DSAIC-Deploying-AI-model')
