@@ -5,9 +5,19 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 
-st.title('😁DSAIC-Deploying-AI-model')
+# Load the custom CSS file
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-st.info('This app builds a AI model on penguine dataset')
+# Apply the CSS
+local_css("style.css")
+
+# Change title text and style
+st.title('BreadcrumbsDSAIC-Deploying-AI-model🐧')
+
+st.info('This app builds an AI model on the penguin dataset')
+
 
 
 with st.expander('Data'):
