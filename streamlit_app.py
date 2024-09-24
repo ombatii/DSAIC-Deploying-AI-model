@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('chicken:DSAIC-Deploying-AI-model')
+st.title('😁DSAIC-Deploying-AI-model')
 
-st.write('Hello world!')
+st.info('This app builds a AI model on penguine dataset')
