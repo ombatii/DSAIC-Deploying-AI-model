@@ -14,9 +14,7 @@ def local_css(file_name):
 local_css("style.css")
 
 # Change title text and style
-st.title('BreadcrumbsDSAIC-Deploying-AI-model🐧')
-
-st.info('This app builds an AI model on the penguin dataset')
+st.title('DSAIC-Deploying-AI-model🐧')
 
 
 
